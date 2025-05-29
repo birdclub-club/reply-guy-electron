@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Electron specific
+.tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# User profile data (contains login cookies)
+.reply-guy-profile/
+
+# Temporary files
+*.tmp
+*.temp
+
+# MacOS specific
+.AppleDouble
+.LSOverride
+
+# Puppeteer cache
+.cache/
+
+# Large artwork files (keep only small samples)
+artwork/**/*.gif
+artwork/**/*.mp4
+artwork/**/*.mov
+!artwork/pengztracted/eyes.jpg
+!artwork/pengztracted/PENG-05.jpeg
+!artwork/pengztracted/15.gif 
+# Exclude large artwork directories
+artwork/general/
+artwork/gm/
+artwork/pengztracted/
+artwork/welcome/
+
+# Exclude large PNG files
+*.png
+image_attach_error_*.png

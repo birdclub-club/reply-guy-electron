@@ -1,0 +1,49 @@
+{
+  "name": "reply-guy-electron",
+  "version": "1.0.0",
+  "description": "AI-powered Twitter engagement automation tool with intelligent reply generation, manual editing capabilities, and robust image attachment system",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "vite",
+    "build": "vite build",
+    "electron:dev": "concurrently \"npm run dev\" \"cross-env NODE_ENV=development electron .\"",
+    "electron:pack": "electron-builder",
+    "electron:dist": "electron-builder --publish=never"
+  },
+  "keywords": [
+    "electron",
+    "twitter",
+    "automation",
+    "ai",
+    "social-media",
+    "puppeteer",
+    "openai",
+    "engagement"
+  ],
+  "author": "Brett Karley",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "electron": "^29.1.0",
+    "vite": "^6.3.3"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow/tfjs": "^4.17.0",
+    "dotenv": "^16.5.0",
+    "electron-store": "^8.1.0",
+    "fs-extra": "^11.2.0",
+    "node-schedule": "^2.1.1",
+    "openai": "^4.96.0",
+    "puppeteer": "^22.15.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.15.3",
+    "sentiment": "^5.0.2",
+    "sharp": "^0.33.2"
+  }
+}
